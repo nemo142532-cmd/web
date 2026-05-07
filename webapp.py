@@ -29,7 +29,7 @@ with col1:
 
     st.subheader("Shopping Frequency")
     st.caption("1 = Rarely | 2 = 1–2 times | 3 = 3–5+ times | 4 = More than 5 time")
-    frequency = st.selectbox("How often do you shop online per month?", [1,2,3])
+    frequency = st.selectbox("How often do you shop online per month?", [1,2,3,4])
 
     st.subheader("Browsing Time")
     st.caption("1 = <10 min | 2 = 10–30 | 3 = 30+")
